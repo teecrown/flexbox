@@ -1,0 +1,71 @@
+body{color: #e6e6e6;
+    margin: 50px;
+    border: 20px;
+    padding: 5px;
+    background: rgb(241, 236, 236); 
+   background: #e6e6e6;
+}
+main{ 
+    color: rgb(221, 209, 209);
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+header{
+    color:white;
+    border: 30px;
+    margin:  10px;
+    margin-top: 30px;
+    padding : 10px;
+}
+footer{ 
+  padding: 10px;
+}
+div#container{
+   margin: 100px;
+   padding: 10px; 
+   display:flex;
+}
+ div.SEDANS{ 
+   background-color:#a05b01ea;
+color: rgb(211, 204, 204)
+}
+.SUVS{
+    background-color: #276470;
+color: rgb(211, 204, 204)
+}
+ div.Luxury{ 
+    background-color: #113c3d;
+    color: rgb(211, 204, 204)   
+ }
+button{
+ color: white;
+    background-color:#e6e6e6 ;
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 60%
+}
+#sedan{
+    color: #bba885ea
+}
+#suv{
+  color: #276470;
+}
+#luxury{
+     color: #072829;
+}
+
+button:hover{
+    color: white;
+    background-color:inherit;
+  cursor: pointer;
+  border: 1px solid white;
+  position: relative;
+}
+:active{
+background-color: inherit;
+color: whitesmoke;
+cursor: pointer;
+}
