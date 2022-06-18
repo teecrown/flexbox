@@ -1,71 +1,46 @@
-body{color: #e6e6e6;
-    margin: 50px;
-    border: 20px;
-    padding: 5px;
-    background: rgb(241, 236, 236); 
-   background: #e6e6e6;
+.grid-container{
+display : grid;
+margin: 20px;
+grid-template-columns : 2fr 1fr ;
+/* the below code functions for this too
+ grid-column-gap: 5px;
+grid-row-gap: 5px ; */
+grid-gap: 1em;
+grid-auto-rows: 200px;
+width: 50em;
+/* this makes the container to adjust to the content height
+ grid-auto-rows: minmax(100px, auto ); */
 }
-main{ 
-    color: rgb(221, 209, 209);
-    margin: 10px;
-    padding: 10px;
-    text-align: justify;
+.grid-item-1{
+    background-color: red;
+    
 }
-header{
-    color:white;
-    border: 30px;
-    margin:  10px;
-    margin-top: 30px;
-    padding : 10px;
-}
-footer{ 
-  padding: 10px;
-}
-div#container{
-   margin: 100px;
-   padding: 10px; 
-   display:flex;
-}
- div.SEDANS{ 
-   background-color:#a05b01ea;
-color: rgb(211, 204, 204)
-}
-.SUVS{
-    background-color: #276470;
-color: rgb(211, 204, 204)
-}
- div.Luxury{ 
-    background-color: #113c3d;
-    color: rgb(211, 204, 204)   
- }
-button{
- color: white;
-    background-color:#e6e6e6 ;
-    border: 1px solid grey;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    width: 60%
-}
-#sedan{
-    color: #bba885ea
-}
-#suv{
-  color: #276470;
-}
-#luxury{
-     color: #072829;
+.grid-item2{
+    background-color: yellow;
+
 }
 
-button:hover{
-    color: white;
-    background-color:inherit;
-  cursor: pointer;
-  border: 1px solid white;
-  position: relative;
+.blue-box{
+   display: grid;
+    grid-template-columns: 1fr 2fr ;
+  margin: 20px;
+    background-color:green;
+    grid-auto-rows: 200px;
+    width: 50em;
+    grid-gap: 3em;
+
 }
-:active{
-background-color: inherit;
-color: whitesmoke;
-cursor: pointer;
+    .blue{
+background-color: rgb(71, 46, 180);
+    }
+
+
+div.green{
+    display: grid;
+    grid-template: 1fr 1fr;
+    grid-row-gap: 1em;
+}
+
+.g2{
+    background-color: greenyellow;
 }
